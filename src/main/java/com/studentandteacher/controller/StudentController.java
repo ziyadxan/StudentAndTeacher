@@ -12,9 +12,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class StudentController {
 
-
     private final StudentService service;
-
 
     @GetMapping("/all")
     public List<Student> getAll() {
